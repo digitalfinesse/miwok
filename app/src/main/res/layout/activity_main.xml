@@ -31,7 +31,8 @@
         style="@style/CategoryStyle"
         android:background="@color/category_family"
         android:onClick="openMembersList"
-        android:text="@string/category_family" />
+        android:text="@string/category_family"
+        android:texts/>
 
     <TextView
         android:id="@+id/colors"

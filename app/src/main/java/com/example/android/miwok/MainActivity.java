@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+ 
 
         // Ищем View, показывающую категорию colors
         TextView buttonViewPhrases = (TextView) findViewById(phrases);
