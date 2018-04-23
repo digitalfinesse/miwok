@@ -18,10 +18,8 @@ package com.example.android.miwok;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import static com.example.android.miwok.R.id.colors;
 import static com.example.android.miwok.R.id.family;
@@ -39,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Ищем View, показывающую категорию number
         TextView buttonView = (TextView) findViewById(numbers);
-        //Устанавливаем clicklitener на эту View
+        //Устанавливаем clicklistener на эту View
         buttonView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Ищем View, показывающую категорию family
         TextView buttonViewFamily = (TextView) findViewById(family);
-        //Устанавливаем clicklitener на эту View
+        //Устанавливаем clicklistener на эту View
         buttonViewFamily.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -64,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Ищем View, показывающую категорию colors
         TextView buttonViewColors = (TextView) findViewById(colors);
-        //Устанавливаем clicklitener на эту View
+        //Устанавливаем clicklistener на эту View
         buttonViewColors.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -74,10 +72,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
         // Ищем View, показывающую категорию colors
         TextView buttonViewPhrases = (TextView) findViewById(phrases);
-        //Устанавливаем clicklitener на эту View
+        //Устанавливаем clicklistener на эту View
         buttonViewPhrases.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
